@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Développeur Web Full Stack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="cv-container">
+    <header>
+      <img src="pic.jpg" alt="Photo de profil" class="profile-pic">
+      <h1>Imad Elgargouri</h1>
+      <p class="job-title">Développeur Web Full Stack</p>
+    </header>
+
+    <section class="contact">
+      <h2>Informations de contact</h2>
+      <ul>
+        <li>📞 0702450651</li>
+        <li>✉ imadelgargouri@gmail.com</li>
+        <li>🌐 www.imaddev.com</li>
+        <li>📍 safi, Maroc</li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2>À propos de moi</h2>
+      <p>
+        Développeur Web Full Stack passionné avec une expérience dans la création 
+        d’applications web modernes en <strong>HTML, CSS, JavaScript, Node.js et React</strong>.  
+        Motivé par l’innovation, la performance et la qualité du design.
+      </p>
+    </section>
+
+    <section class="experience">
+      <h2>Expérience professionnelle</h2>
+      <div class="job">
+        <h3>Développeur Full Stack</h3>
+        <span>2025 - Présent</span>
+        <p>Développement d’applications web complètes pour des entreprises digitales 
+           avec React et Node.js.</p>
+      </div>
+      <div class="job">
+        <h3>Développeur Front-End</h3>
+        <span>2024 - 2026</span>
+        <p>Conception d’interfaces modernes et responsives en HTML, CSS et JavaScript.</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Compétences techniques</h2>
+      <ul class="skills-list">
+        <li>HTML / CSS / JavaScript</li>
+        <li>React / Node.js / Express</li>
+        <li>MongoDB / SQL</li>
+        <li>Git / GitHub / APIs</li>
+        <li>Bases du design UI/UX</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2>Formation</h2>
+      <p>Diplome  en Informatique – BTS MOHAMD 5 (2024 - 2026)</p>
+    </section>
+  </div>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c') no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 35, 0.85);
+  backdrop-filter: blur(3px);
+}
+
+.cv-container {
+  position: relative;
+  max-width: 850px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bcd4;
+}
+
+.job-title {
+  color: #00bcd4;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+h2 {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 6px 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: rgba(0, 188, 212, 0.2);
+  border: 1px solid #00bcd4;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.9em;
+}
+
+.job span {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.job p {
+  margin-top: 5px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+  </style>
+</body>
+</html>
